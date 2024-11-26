@@ -1,0 +1,22 @@
+/* low res laptop */
+@media screen and (max-width: 1250px) {
+    
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+    #left-nav, #right-nav{
+        display: none;
+    }
+
+    header i{
+        display: initial;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 720px) {
+    #heading{
+        flex-wrap: wrap;
+    }
+}
